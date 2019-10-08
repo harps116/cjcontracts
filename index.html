@@ -174,7 +174,7 @@
       <!-- Footer -->
       <footer id="footer">
         <ul class="copyright">
-          <li>&copy; cjcontracts.</li>
+          <li>&copy; cjcontracts <span id="year"></span>.</li>
         </ul>
       </footer>
     </div>
@@ -184,5 +184,8 @@
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      $("#year").text(new Date().getFullYear());
+    </script>
   </body>
 </html>
