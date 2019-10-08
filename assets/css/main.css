@@ -929,6 +929,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
+		text-align: left;
 		padding: 4em 2.25em 1.75em 2.25em ;
 	}
 
